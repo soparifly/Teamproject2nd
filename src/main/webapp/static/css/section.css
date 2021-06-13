@@ -1,0 +1,56 @@
+section#contents {
+	height: 100%;
+	margin: 0 auto;
+}
+section#contents div#home div#logo img {
+	width: 30%;
+	height: 30%;
+}
+section#contents div#home div#logo img:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
+section#contents div#home div#logo-bottom1 div {
+	margin: 0 auto;
+	width: 50px;
+	height: 6px;
+	border-left: 30px solid transparent;
+	border-top: 50px solid #036635;
+	border-right: 30px solid transparent;
+	position: relative;
+	transition: 0.5s;
+}
+div#d1:first-child{
+	opacity: 0.5;
+}
+
+div#logo-bottom1 div#d2 {
+	opacity: 0.3;
+}
+section#contents article {
+	padding-top: 20vh;
+}
+
+article#art1 {
+	
+}
+
+article#art2 {
+	
+}
+
+article#art3 {
+	
+}
+
+article#art4 {
+	
+}
+
+article#art5 {
+	
+}
+
+article#art6 {
+	
+}
