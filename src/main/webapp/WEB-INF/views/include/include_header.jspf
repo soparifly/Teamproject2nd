@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="rootPath" value="${pageContext.request.contextPath}" />
+<style>
+</style>
+<script>
+	var rootPath = "${rootPath}";
+</script>
+<script src="${rootPath}/static/js/main_nav.js?ver=2021-06-13-001"></script>
+</head>
+<body>
+	<header id="home_header">
+		<h1 id="h1">STARBUCKS CUSTOM</h1>
+	</header>
+	<nav id="main_nav">
+		<ul>
+			<li>HOME</li>
+			<li>달력</li>
+			<li>CUSTOM</li>
+			<li>게시판</li>
+			<li>로그인</li>
+			<li>공지사항</li>
+		</ul>
+	</nav>
