@@ -1,46 +1,50 @@
 @charset "UTF-8";
 /* 기본스타일  */
+
+section#main_cal{
+/* 	border:1px solid green; */
+}
 table#calender {
  	/* border: 1px solid green; */
  	width:100%;
- 	padding: 40px;
+ 	padding: 30px;
 }
 table#calender tr {
-	height: 60px;
+	height: 50px;
 }
 
 table#calender td {
 	width: 100px;
 	text-align: right;
-	font-size: 15pt;
+	font-size: 12pt;
 	font-family: D2coding;
 }
 /* 타이틀 스타일 */
 table#calender th#title {
-	font-size: 20pt;
+	font-size: 15px;
 	font-weight: bold;
-	color: #FFBF00;
+	color: #036635;
 	font-family: D2coding;
 }
 
 /* 요일 스타일 */
 table#calender td.sunday {
 	text-align: center;
-	font-weight: bold;
+	font-weight: 400;
 	color: red;
 	font-family: D2coding;
 }
 
 table#calender td.saturday {
 	text-align: center;
-	font-weight: bold;
+	font-weight: 400;
 	color: blue;
 	font-family: D2coding;
 }
 
 table#calender td.etcday {
 	text-align: center;
-	font-weight: bold;
+	font-weight: 400;
 	color: black;
 	font-family: D2coding;
 }

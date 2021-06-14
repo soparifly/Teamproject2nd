@@ -7,8 +7,10 @@
 <!DOCTYPE html>
 <html>
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
-<body>
+
 <%@ include file="/WEB-INF/views/include/include_header.jspf"%>
+<body>
+<section id="main_cal">
 	<%
 	Date date = new Date();
 	int year = date.getYear() + 1900;
@@ -43,7 +45,7 @@
 			</th>
 
 			<!-- 제목 만들기 -->
-			<th id="title" colspan="5"><%=year%>년 <%=month%>월</th>
+			<th id="title" colspan="5"><%=year%>년 </br> <%=month%>월</th>
 
 			<!-- 다음달 버튼 만들기 -->
 			<th>
@@ -113,6 +115,7 @@
 			%>
 		</tr>
 	</table>
+	</section>
 </body>
 <%@ include file="/WEB-INF/views/include/include_footer.jsp" %>
 </html>

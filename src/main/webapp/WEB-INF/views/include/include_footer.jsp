@@ -5,8 +5,9 @@
 <meta charset="UTF-8">
 <style>
 footer {
-	background-color: #a6d6d6;
+	background-color: #036635;
 	color: white;
+	font-weight:400;
 	padding: 5px;
 }
 

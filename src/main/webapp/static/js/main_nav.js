@@ -8,20 +8,20 @@ document.addEventListener("DOMContentLoaded", () => {
       let menuText = e.target.textContent;
       if (menuText === "HOME") {
         urlPath += "/";
-      } else if (menuText === "달력") {
+      } else if (menuText === "EVENT") {
         urlPath += "/eventcalender";
-      } else if (menuText === "공지사항") {
+      } else if (menuText === "NOTICE") {
         urlPath += "/publicnotice";
-      } else if (menuText === "COSTOM") {
+      } else if (menuText === "CUSTOM") {
         urlPath += "/custom";
-      } else if (menuText === "게시판") {
+      } else if (menuText === "BOARD") {
         urlPath += "/freenotice";
-      } else if (menuText === "로그인") {
-        urlPath += "/member/login";
-      } else if (menuText === "회원가입") {
+      } else if (menuText === "LOGIN") {
+        urlPath += "/member";
+      } else if (menuText === "JOIN") {
         urlPath += "/member/join";
       }
-      alert(`내가 가야할곳 ${urlPath}`);
+
       location.href = urlPath;
     }
   });

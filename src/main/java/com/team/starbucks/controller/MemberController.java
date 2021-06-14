@@ -1,9 +1,7 @@
 package com.team.starbucks.controller;
 
-import java.util.Locale;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -16,6 +14,11 @@ public class MemberController {
 
 	@RequestMapping(value = { "/", "" }, method = RequestMethod.GET)
 	public String login() {
+		log.info(" member root {}.");
+		return "member/login";
+	}
+	@RequestMapping(value = { "/", "" }, method = RequestMethod.POST)
+	public String login2() {
 		log.info(" member root {}.");
 		return "member/login";
 	}

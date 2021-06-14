@@ -83,8 +83,9 @@ div.btn_box {
 #notice1 button {
 	background-color: #036635;
 	color: whitesmoke;
-	outline: 0;
+	outline: none;
 	border-radius: 10px;
+	
 }
 
 #notice1 button:hover {
