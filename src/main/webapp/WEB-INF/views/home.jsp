@@ -4,8 +4,23 @@
 <c:set var="rootPath" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
 <html>
-<style>
+<script>
+document.addEventListener("DOMContentLoaded",() =>{
 
+	document.querySelector("").addEventListener("click"),(e) =>{
+		let img = e.target;
+		if((img.tagName="IMG")){
+			let imgSrc=img.src;
+			document.querySelector("section#content article img").src=imgSrc;
+			
+		}
+	});
+});
+</script>
+<style>
+section#content article img {
+opacticy:1;
+}
 </style>
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
 <body>
