@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-fieldset#notice {
+fieldset#custom {
 	/* border: 1px solid green; */
-/* 	border-radius: none; */
+	/* 	border-radius: none; */
 	border: 10px solid transparent;
 	width: 100%;
 	height: 100vh;
@@ -11,66 +11,66 @@ fieldset#notice {
 }
 
 /* style을 이렇게 지정하면 모든 h1에 공통 적용이 됩니다 */
-h1#notice {
+h1#custom {
 	color: #036635;
 	font-weight: 100;
 	text-decoration: letter-spacing: 2px;
 }
 
-
 /* 아래처럼 누구 page의 table 인지 명시해주어야 합니다 */
 /* 모든 페이지에서 같은 id가 없도록 작성해야 하구요 */
-table#notice {
-/* 	border: 1px solid green; */
+table#customlist {
+	/* 	border: 1px solid green; */
 	border-spacing: 0;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	font-size: 10px;
+	text-align: center;
 }
 
-table#notice th, td {
+table#custom th, td {
 	border-top: 1px solid #aaa;
 	padding: 5px 8px;
 	text-align: center;
 }
 
-table#notice td {
+table#custom td {
 	margin-left: 30px;
 }
 
-tablec#notice tr:last-child td {
+tablec#custom tr:last-child td {
 	border-bottom: 1px soild #aaa;
 }
 
-table#notice tr, td:nth-of-type(1) {
+table#custom tr, td:nth-of-type(1) {
 	width: 10px;
 }
 
-table#notice tr, td:nth-of-type(2) {
+table#custom tr, td:nth-of-type(2) {
 	width: 100px;
 }
 
-table#notice tr, td:nth-of-type(3) {
+table#custom tr, td:nth-of-type(3) {
 	width: 50%;
 }
 
-table#notice tr, td:nth-of-type(4) {
+table#custom tr, td:nth-of-type(4) {
 	width: 10%;
 }
 
-table#notice tr, td:nth-of-type(6) {
+table#custom tr, td:nth-of-type(6) {
 	width: 10%;
 }
 
-table#notice tr:last-child (odd) {
+table#custom tr:last-child (odd) {
 	border-bottom: 1px solid #ddd;
 }
 
-table#notice tr:last-child(even) {
+table#custom tr:last-child(even) {
 	border-bottom: 1px solid #eee;
 }
 
-table#notice tr:hover {
+table#custom tr:hover {
 	background-color: #aaa;
 }
 
@@ -80,14 +80,14 @@ div.btn_box {
 	text-align: right;
 }
 
-#notice button {
+#custom button {
 	background-color: #036635;
 	color: whitesmoke;
-	outline: 0;
+	outline: none;
 	border-radius: 10px;
 }
 
-#notice button:hover {
+#custom button:hover {
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 	cursor: pointer;
 }

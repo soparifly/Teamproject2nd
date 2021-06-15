@@ -7,8 +7,8 @@
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
 <body>
 <%@ include file="/WEB-INF/views/include/include_header.jspf"%>
-	<fieldset id="notice1">
-		<h1 id="notice1">공지사항</h1>
+	<fieldset id="notice">
+		<h1 id="notice">공지사항</h1>
 		<div class="btn_box">
 			<!--     <button class="btn_insert menu">메뉴 등록</button> -->
 		</div>

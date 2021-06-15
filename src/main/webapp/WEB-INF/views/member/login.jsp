@@ -6,6 +6,7 @@
 <html>
 <style>
 form#login_form {
+	height: 100vh;
 	width: 350px;
 	padding: 60px;
 	margin: 80px auto;
@@ -58,7 +59,7 @@ form#login_form button:hover {
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
 <body>
 	<%@ include file="/WEB-INF/views/include/include_header.jspf"%>
-	<form id="login_form" method=POST">
+	<form id="login_form" method="POST">
 		<h2>로그인</h2>
 		<input name="m_username" placeholder="ID를 입력하세요" /> <input
 			type="password" name="m_password" placeholder="비밀번호를 입력하세요" />
