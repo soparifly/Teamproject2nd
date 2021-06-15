@@ -31,6 +31,6 @@
 			</tr>
 		</table>
 	</fieldset>
-</body>
 <%@ include file="/WEB-INF/views/include/include_footer.jsp" %>
+</body>
 </html>

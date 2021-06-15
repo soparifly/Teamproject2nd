@@ -65,10 +65,10 @@ form#login_form button:hover {
 		<button>로그인</button>
 
 	</form>
+<%@ include file="/WEB-INF/views/include/include_footer.jsp"%>
 </body>
 <script>
 document.querySelector("button").addEventListener("click",()=>{
 	location.href="${rootPath}/home";
 })</script>
-<%@ include file="/WEB-INF/views/include/include_footer.jsp"%>
 </html>

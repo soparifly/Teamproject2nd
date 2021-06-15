@@ -9,6 +9,8 @@ footer {
 	color: white;
 	font-weight:400;
 	padding: 5px;
+	display:block;
+	
 }
 
 address {
