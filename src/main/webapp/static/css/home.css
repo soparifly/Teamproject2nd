@@ -65,15 +65,15 @@ nav#main_nav ul {
 	text-aline: center;
 	width: 100%;
 	margin: 0 auto;
-	padding-left: 30%;
-	padding-right: 30%;
+	padding-left: 38%;
+	padding-right: 35%;
 }
 
 nav#main_nav li {
 	align-items: center;
 	text-aline: center;
 	position: flex;
-	width: 100%;
+	width: 80%;
 	/* border: 1px solid red; */
 	margin-bottom: 0 auto;
 	height: 60px;
@@ -90,76 +90,9 @@ nav#main_nav li:hover {
 	padding: 0 auto;
 }
 
-section#top_bar {
-	align-items: center;
-	display: flex;
-	margin: 3px 3px;
-	padding: 5px;
-}
-section#top_bar article#today{
-	height:400px;
-	text-align: center;
-}
-
-section#leftbox {
-	padding-left:100px;
-	width : 20%;
-	margin: 0;
-	padding: 10px;
-	margin: 0px;
-	width: 20%;
-	height: 400px;
-	text-align: center;
-}
-
-section#leftbox article#login {
-	width:200px;
-	padding: 15px;
-	border: 1px dotted #aaa;
-	border-radius: 10px;
-		text-align: center;
-}
-
-/* section#leftbox article#login input {
-	padding: 0px;
-	height:20px;
-	weight:30px;
-
-} */
-/* section#leftbox article#login input:hover {
-	border: 1px solid #aaa;
-
-}
-
-section#leftbox article#login button {
-	border-radius: 3px;
-	background-color: white;
-	border: 1px solid white;
-	display:flex;
-}
-section#leftbox article#login button:nth-of-type(1){
-	margin-left:auto; 
-}
-
-section#leftbox article#login button:nth-of-type(2){
-	margin-left:auto; 
-}
-
-section#leftbox article#login button:hover {
-	background-color: white;
-	border: 1px solid #aaa;
-	cursor: pointer;
-}
- */
-section#leftbox article#today {
-	height: 250px;
-	margin: 10px;
-	overflow:hidden;	
-}
-
 section#main_sec {
 	padding: 10px 2px;
-	width: 80%;
+	width: 50%;
 	height: 400px;
 	margin: 5px auto;
 	flex: 1;
@@ -179,8 +112,8 @@ section#main_sec article ul, ol {
 
 section#main_sec article li {
 	list-style: none;
-	margin: 10 15px;
-	padding: 0 5px;
+	margin: 2px 15px;
+	padding: 3px 5px;
 }
 
 section#contents article img {
@@ -188,29 +121,4 @@ section#contents article img {
 	height: 300px;
 	display: block;
 	margin: 0px auto;
-}
-
-img#todayimg{
-	width:200px;
-	height:200px;
-}
-
-section#contents article:nth-of-type(1) {
-	background: url("${rootPath}/static/img/back2.jpg") no-repeat;
-}
-
-section#contents article:nth-of-type(2) {
-	background: url("${rootPath}/static/img/back2.jpg") no-repeat;
-}
-
-section#contents article:nth-of-type(3) {
-	background: url("${rootPath}/static/img/oreo.jpg") no-repeat;
-}
-
-section#acontents article:nth-of-type(4) {
-	background: url("${rootPath}/static/img/snicuze.jpg") no-repeat;
-}
-
-section#contents article:nth-of-type(5) {
-	background: url("${rootPath}/static/img/pigba.jpg") no-repeat;
 }

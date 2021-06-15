@@ -7,8 +7,27 @@
 <!DOCTYPE html>
 <html>
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
-
-<%@ include file="/WEB-INF/views/include/include_header.jspf"%>
+<style>
+table#calender{
+	background-repeat: no-repeat;
+	background-position: center;
+	position:relative;
+	z-index:1;
+}
+table#calender::after {
+width:100%;
+height:100%;
+	content:"";
+	position: absolute;
+ 	background-image: url("${rootPath}/static/img/background/june.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	top:0;
+	left:0;
+	z-index:-1;
+	opacity: 0.3;
+}
+</style>
 <body>
 <section id="main_cal">
 	<%
@@ -116,6 +135,5 @@
 		</tr>
 	</table>
 	</section>
-<%@ include file="/WEB-INF/views/include/include_footer.jsp" %>
 </body>
 </html>

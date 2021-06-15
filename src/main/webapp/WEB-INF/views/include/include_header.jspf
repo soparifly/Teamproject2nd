@@ -14,10 +14,10 @@
 	<nav id="main_nav">
 		<ul>
 			<li>HOME</li>
-			<li>EVENT</li>
 			<li>CUSTOM</li>
-			<li>BOARD</li>
 			<li>NOTICE</li>
+			<li>BOARD</li>
 			<li>LOGIN</li>
+			<!-- <li>JOIN</li> -->
 		</ul>
 	</nav>
