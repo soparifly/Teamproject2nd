@@ -73,6 +73,14 @@ section#main_sec article li {
 	margin: 10 15px;
 	padding: 0 5px;
 }
+
+section#contents article img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
 </style>
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
 <body>
@@ -121,12 +129,12 @@ section#main_sec article li {
 		</section>
 	</section>
 	<section id="contents">
-		<article></article>
-		<article></article>
-		<article></article>
-		<article></article>
-		<article></article>
-		<article></article>
+		<article><img src="${rootPath}/static/img/dollche.jpg"></article>
+		<article><img src="${rootPath}/static/img/oreo.jpg"></article>
+		<article><img src="${rootPath}/static/img/pigba.jpg"></article>
+		<article><img src="${rootPath}/static/img/sureck.jpg"></article>
+		<article><img src="${rootPath}/static/img/godibafraffuchino.jpg"></article>
+		<article><img src="${rootPath}/static/img/doubleshot.jpg"></article>
 	</section>
 </body>
 <%@ include file="/WEB-INF/views/include/include_footer.jsp"%>

@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>STARBUCKS CUSTOM 2021</title>
 <!-- 소정 -->
-<link href="${rootPath}/static/css/main_nav.css" rel="stylesheet" />
+<link href="${rootPath}/static/css/main_nav.css?ver2021-06-15ver001" rel="stylesheet" />
 <link href="${rootPath}/static/css/freenotice.css" rel="stylesheet" />
 <link href="${rootPath}/static/css/publicnotice.css" rel="stylesheet" />
 <link href="${rootPath}/static/css/eventcalender.css?ver2021-06-14ver001" rel="stylesheet" />
