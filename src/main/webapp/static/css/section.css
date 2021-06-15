@@ -1,13 +1,8 @@
-section#contents {
-	width: 100%;
-	height: 500px;
-	display: flex;
-}
 
 section#contents article {
 	flex: 1;
 	height: 100%;
-	width: 500px;
+	width: 400px;
 	border-radius: 5px;
 	overflow: hidden;
 }

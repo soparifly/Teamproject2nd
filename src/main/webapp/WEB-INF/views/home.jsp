@@ -5,17 +5,23 @@
 <!DOCTYPE html>
 <html>
 <script>
-document.addEventListener("DOMContentLoaded",() =>{
-
-	document.querySelector("").addEventListener("click"),(e) =>{
-		let img = e.target;
-		if((img.tagName="IMG")){
-			let imgSrc=img.src;
-			document.querySelector("section#content article img").src=imgSrc;
-			
-		}
+/* document.addEventListener("DOMContentLoaded",()=>{
+	let images=[];
+	for(let i =0; i<24; i++){
+		let imgNum= Math.floor(Math.randim() * (24-1+1))+ 1;
+		let img_src='${imgNum}.jpg';
+		console.log(img_src);
+		images.push(img_src);
+		
+	}
+	console.log("이미지 번호"+images);
+	let imageBox = images.map((value, key)=> {
+		console.log(key,value);
+		let div = document.createElement("div");
+		div.style.img='`${value}`'
 	});
-});
+	
+}); */
 </script>
 <style>
 section#content article img {
@@ -25,19 +31,41 @@ opacticy:1;
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
 <body>
 	<%@ include file="/WEB-INF/views/include/include_header.jspf"%>
+	<div class="main">
+		<div class="mask">
+			<div class="images">
+					<img src="${rootPath}/static/img/1.jpg">
+					<img src="${rootPath}/static/img/2.jpg">
+					<img src="${rootPath}/static/img/3.jpg">
+					<img src="${rootPath}/static/img/4.jpg">
+					<img src="${rootPath}/static/img/5.jpg">
+					<img src="${rootPath}/static/img/6.jpg">
+					<img src="${rootPath}/static/img/7.jpg">
+					<img src="${rootPath}/static/img/8.jpg">
+					<img src="${rootPath}/static/img/10.jpg">
+					<img src="${rootPath}/static/img/11.jpg">
+					<img src="${rootPath}/static/img/12.jpg">
+					<img src="${rootPath}/static/img/13.jpg">
+					<img src="${rootPath}/static/img/14.jpg">
+					<img src="${rootPath}/static/img/15.jpg">
+					<img src="${rootPath}/static/img/17.jpg">
+				</div>
+			</div>
+		</div>
 	<section id="top_bar">
 	
 		<section id="leftbox">
 		
-			<article id="login">
+<!-- 			<article id="login">
 				<input type="text" value="user_id">
-				<button>로그인</button>
 				<input type="password" value="user_password">
+				<button>로그인</button>
 				<button>회원가입</button>
-			</article>
+			</article> -->
 			
-			<article id="today">오늘의 추천메뉴
-			
+			<article id="today"> <div>
+			명예의 전당</div>
+				<img src="${rootPath}/static/img/twix.jpg" width="200px" height="200px">	
 			</article>
 		</section>
 		<section id="main_sec">
@@ -72,14 +100,6 @@ opacticy:1;
 				</ol>
 			</article>
 		</section>
-	</section>
-	<section id="contents">
-		<article><img src="${rootPath}/static/img/dollche.jpg"></article>
-		<article><img src="${rootPath}/static/img/oreo.jpg"></article>
-		<article><img src="${rootPath}/static/img/pigba.jpg"></article>
-		<article><img src="${rootPath}/static/img/sureck.jpg"></article>
-		<article><img src="${rootPath}/static/img/godibafraffuchino.jpg"></article>
-		<article><img src="${rootPath}/static/img/doubleshot.jpg"></article>
 	</section>
 <%@ include file="/WEB-INF/views/include/include_footer.jsp"%>
 </body>
