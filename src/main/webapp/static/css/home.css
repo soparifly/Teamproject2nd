@@ -5,45 +5,50 @@
 	font-family: 'Song Myung', serif;
 }
 
-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
 
 body {
-	padding-top: 52px;
+	padding-top: 54px;
 	height: 100vh;
 	display:flex;
 	flex-direction: column;
 }
 
 
+header {
+	background-color: rgb(3, 102, 53);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top:3rem;
+	padding-bottom:0;
+	border:0;
+}
 
 section#main{
 	flex:1;
 	dispaly:flex;
 	height:0;
 }
-header#home_header {
-	height: 0auto;
-	/* border: 1px solid green; */
-}
+
 
 header h1#h1 {
-	justify-content: center;
+	width:100%;
+	text-align:center;
+	/* justify-content: center; */
 	text-shadow: 1px 0px 0px #aaa;
 	/* border: 1px solid green; */
 	color: #eee;
-	background-color: rgb(3, 102, 53);
-	text-align: center;
-	line-height: 86px;
+	
+	/* text-align: center;/*  */ */
+	/* line-height: 86px; */
 	font-weight: 800;
-	height: 52px;
-	display: flex;
+	/* height: 54px; */
+	/* display: flex; */
 	margin: 0 auto;
-	padding-bottom: 0;
+	/* padding-bottom: 0; */
+	position: absolute;
+	bottom:-9px;
 }
 nav#main_nav {
 	/* border: 1px solid green; */
@@ -66,19 +71,26 @@ nav#main_nav ul {
 	text-aline: center;
 	width: 100%;
 	margin: 0 auto;
-	padding-left: 38%;
-	padding-right: 35%;
+	justify-content: center;
 }
 
 nav#main_nav li {
-	align-items: center;
+	
 	text-aline: center;
-	position: flex;
-	width: 80%;
-	/* border: 1px solid red; */
 	margin-bottom: 0 auto;
 	height: 60px;
+	padding:0 20px;
+	
 }
+
+nav#main_nav li:first-child {
+	margin-left:auto;
+}
+	
+nav#main_nav li:last-child {
+	margin-right:auto;
+}
+
 
 nav#main_nav li:hover {
 	height: 30px;

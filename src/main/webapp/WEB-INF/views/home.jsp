@@ -4,10 +4,6 @@
 <c:set var="rootPath" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
 <html>
-<script>
-</script>
-<style>
-</style>
 <%@ include file="/WEB-INF/views/include/include_head.jspf"%>
 <body>
 	<%@ include file="/WEB-INF/views/include/include_header.jspf"%>
